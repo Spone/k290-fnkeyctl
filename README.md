@@ -12,6 +12,8 @@ You'll need:
  - if you choose clang, change build.sh as described in there
  - libusb 1.0, including development files
    - on Ubuntu/Debian this can be achieved via `sudo apt-get install libusb-1.0-0-dev`
+ - pkg-config, if not already installed
+   - on Ubuntu/Debian this can be achieved via `sudo apt-get install pkg-config`
 
 Then, on a regular Linux System just type `./build.sh` and it should work.
 If it does not, look at the script and adapt the path accordingly.
